@@ -1,0 +1,36 @@
+body {
+    font-family: Futura, Trebuchet MS, Arial, san-serif;
+    color: rgb(65, 64, 64);
+}
+
+h1 {
+    font-size: 65pt;
+    font-weight: normal;
+    margin: 25px;
+}
+
+.navbar {
+    text-align: right;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 13px;
+    padding: 5px;
+    margin: 5px;
+}
+.nav-list li a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+.navbar a, .navbar a:active, .navbar a:hover, .navbar a:visited {
+    color: rgb(65, 64, 64);
+    text-decoration: none;
+}
+.navbar a:active, .navbar a:hover {
+    text-decoration: underline;
+}
+
+.vertical-center {
+    margin-top: 185px;
+}
+
