@@ -66,6 +66,7 @@ h1 {
     box-shadow: 0 3px 10px 2px rgba(70, 70, 70, 0.10), 0 3px 10px 2px rgba(70, 70, 70, 0.10);
     transition: box-shadow 0.1s ease-in-out;
 }
+
 #searchQueryInput {
     width: 100%;
     height: 2.8rem;
@@ -92,3 +93,118 @@ h1 {
     border: 1px solid #d0d0d0;
 
 }
+
+
+/* Overlay */
+.overlay {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  
+  /* Modal card */
+  .modal {
+    background: #fff;
+    width: 550px;
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.25);
+  }
+  
+  /* Header */
+  .modal-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+    font-size: 15.5px;
+    font-weight: 500;
+  }
+  
+  .close {
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  /* Drop zone */
+  .drop-zone {
+    background: #f5f7f9;
+    border: 1px dashed #d0d0d0;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 0.1px;
+  }
+  
+  .drop-content p {
+    color: #5f6368;
+    font-size: 15px;
+  }
+  
+  .drop-content a {
+    color: #1a73e8;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  
+  /* Divider */
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #5f6368;
+    font-size: 14px;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ebeaea;
+  }
+  
+  .divider span {
+    padding: 0 12px;
+  }
+  
+  /* Link input */
+  .link-search {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .link-search input {
+    flex: 1;
+    height: 44px;
+    border-radius: 22px;
+    border: 1px solid #dadce0;
+    padding: 0 16px;
+    font-size: 14px;
+  }
+  
+  .link-search button {
+    height: 44px;
+    padding: 0 24px;
+    border-radius: 22px;
+    border: 1px solid #dadce0;
+    background: white;
+    color: #1a73e8;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .link-search button:hover {
+    background: #c9d5e2;
+  }
+  
